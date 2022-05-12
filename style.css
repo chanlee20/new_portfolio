@@ -63,3 +63,17 @@
     text-align: center; 
     left: 380px;
 }
+
+.col1{
+    position: relative;
+    line-height: 35px;
+    left: 380px;
+    bottom: 300px;
+}
+
+.col2{
+    position: relative;
+    line-height: 35px;
+    left: 700px;
+    bottom: 422px;
+}
