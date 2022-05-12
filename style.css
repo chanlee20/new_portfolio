@@ -180,3 +180,20 @@ progress {
     left: 700px;
     bottom: 1319px;
 }
+
+.navbar{
+    position: fixed;
+    z-index: 3;
+    margin-left: 20px;
+    right: 20px;
+}
+
+.nicon{
+    display: block;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
