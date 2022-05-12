@@ -126,6 +126,15 @@
     bottom: 300px;
 }
 
+.instr{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
 .sublist{
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Grape Nuts', cursive;
@@ -187,6 +196,8 @@ progress {
     margin-left: 20px;
     right: 20px;
 }
+
+
 
 .nicon{
     display: block;
