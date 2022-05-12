@@ -2,4 +2,17 @@
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Grape Nuts', cursive;
     font-family: 'Lato', sans-serif;
+    padding-top: 100px;
+    
+}
+
+.icons{
+    margin-left: 15px;
+}
+
+.pp{
+    border-radius: 30px;
+    width: auto;
+    height: 300px;
+    margin-left: 500px;
 }
