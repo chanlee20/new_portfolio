@@ -121,4 +121,13 @@
     font-family: 'Lato', sans-serif;
     position: relative;
     bottom: 300px;
+    left: 30px;
+}
+
+.sk{
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+    width: 50%;
+    height: 30px;
 }
