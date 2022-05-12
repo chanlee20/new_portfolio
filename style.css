@@ -110,6 +110,11 @@
     bottom: 300px;
 }
 
+.img-section:hover .img{
+    opacity: 0.3;
+    transform: scale(0.9);
+ }
+
 .header3{
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Grape Nuts', cursive;
@@ -146,8 +151,6 @@
     height: 30px;
     margin-bottom: 50px;
 }
-
-
 
 progress {
   -webkit-appearance: none;   
