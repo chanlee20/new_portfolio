@@ -208,3 +208,8 @@ progress {
     text-align: center;
     
 }
+
+.resume{
+    position: relative;
+    bottom: 700px;
+}
