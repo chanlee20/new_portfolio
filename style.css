@@ -142,6 +142,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+.skills{
+    position: relative;
+    bottom: 800px;
+}
+
 .sk{
     margin-top: 100px;
     left: 355px;
@@ -168,4 +173,10 @@ progress {
   background-color: #04b191;
     border-radius: 7px; 
     width: 100%;
+}
+
+#i4, #i5, #i6{
+    position: relative;
+    left: 700px;
+    bottom: 1319px;
 }
