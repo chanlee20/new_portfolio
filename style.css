@@ -3,7 +3,7 @@
     font-family: 'Grape Nuts', cursive;
     font-family: 'Lato', sans-serif;
     position: relative;
-    left: 130px;
+    left: 300px;
     top: 300px;
     width: 50%;
     
@@ -12,7 +12,7 @@
 .icons{
     margin-left: 15px;
     position: relative;
-    left: 113px;
+    left: 283px;
     bottom: 180px;
 }
 
@@ -21,4 +21,17 @@
     width: auto;
     height: 500px;
     margin-left: 600px;
+}
+
+.about-me{
+    margin-top: 50px;
+}
+
+.header{
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-top: 1px solid #d3c8c8;
+    padding-top: 50px;
 }
