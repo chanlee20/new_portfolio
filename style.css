@@ -253,4 +253,5 @@ progress {
 .hide span{
     transform: translateY(100%);
     display: inline-block;
+    text-align: center;
 }
