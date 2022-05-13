@@ -1,3 +1,8 @@
+body{
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+}
 .name {
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Grape Nuts', cursive;
@@ -256,6 +261,22 @@ progress {
     text-align: center;
 }
 
+footer{
+    width: 100%;
+    text-align:center;
+    background:#d1d1d1
+}
+.header4{
+    padding-top: 30px;
+}
+
+.icons2{
+    margin-left: 15px;
+}
+.sf{
+    padding-bottom: 30px;
+}
+
 @media (min-width: 399px)and (max-width: 768px) {
     .name{
         position: relative;
@@ -273,7 +294,7 @@ progress {
         position: fixed;
     z-index: 3;
     margin-left: 20px;
-    right: 30px;
+    right: 60px;
     }
     .pp2{
         position: relative;
