@@ -215,7 +215,8 @@ progress {
 }
 
 .beginning{
-    background: black;
+    z-index: 4;
+    background: rgb(238, 252, 162);
     position: fixed;
     top: 0;
     left: 0;
@@ -227,7 +228,8 @@ progress {
 }
 
 .slider{
-    background: lightblue;
+    z-index: 5;
+    background: rgb(61, 76, 82);
     position: fixed;
     top: 0;
     left: 0;
@@ -237,7 +239,7 @@ progress {
 }
 
 .intro-text{
-    color: lightblue;
+    color: rgb(52, 55, 252);
     font-family: 'Anek Tamil', sans-serif;
     font-family: 'Grape Nuts', cursive;
     font-family: 'Lato', sans-serif;
@@ -245,7 +247,6 @@ progress {
 }
 
 .hide{
-    background: black;
     overflow: hidden;
 }
 
