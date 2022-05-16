@@ -278,6 +278,26 @@ footer{
 }
 
 @media (min-width: 399px)and (max-width: 768px) {
+    .header{
+        width: 120%;
+        text-align: center;
+    }
+    .header2{
+        width: 120%;
+        text-align: center;
+    }
+    .header3{
+        width: 120%;
+        text-align: center;
+    }
+    .instr{
+        width: 120%;
+        text-align: center;
+    }
+    .sub{
+        width:120%;
+        text-align:center;
+    }
     .name{
         position: relative;
         left: 100px;
@@ -303,6 +323,10 @@ footer{
     .job{
         position: relative;
         left: 150px;
+    }
+    .sk{
+        position: relative;
+        margin-left: 75px;
     }
     .desc{
         position: relative;
@@ -351,5 +375,17 @@ footer{
         position: relative;
         bottom: -200px;
         left: 85px;
+    }
+    .intro{
+        text-align: center;
+        width:120%;
+    }
+    .am-container{
+        position: relative;
+        left: 30px;
+    }
+    footer{
+        padding-left: 26px;
+        width: 120%;
     }
 }
