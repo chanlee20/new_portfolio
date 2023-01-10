@@ -16,140 +16,220 @@
 
     <div class = "beginning">
         <div class = "intro-text">
-            
             <h1 class = "hide">
                 <span class = "text">
                     “Code is like humor. When you have to explain it, it’s bad.” 
-
                 </span>
             </h1>
-<!--             <h1 class = "hide">
-                <span class = "text">
-                           $nbsp – Cory House
-                </span>
-            </h1> -->
         </div>
     </div>
-    <div class = "slider"></div>
 
     <div id = "navbar" class = "navbar">
-        <a href = "#fp" style="font-size:24px" class = "nicon"> <i class="fa-solid fa-house"></i></a>
-        <a href = "#am" style="font-size:24px" class = "nicon"> <i class="fa-regular fa-user"></i></a>
-        <a href = "#hp" style="font-size:24px" class = "nicon"> <i class="fa-solid fa-list-check"></i></a>
-        <a href = "#hs" style="font-size:24px" class = "nicon"> <i class="fa-solid fa-bars-progress"></i></a>
-        <a href = "#hr" style="font-size:24px" class = "nicon"> <i class="fa-regular fa-file"></i></i></a>
+        <a href = "#fp" style="font-size:24px" class = "nicon"> <i id = "house" class="fa-solid fa-house"></i></a>
+        <a href = "#am" style="font-size:24px" class = "nicon"> <i id = "user" class="fa-regular fa-user"></i></a>
+        <a href = "#hp" style="font-size:24px" class = "nicon"> <i id = "list" class="fa-solid fa-list-check"></i></a>
+        <a href = "#hs" style="font-size:24px" class = "nicon"> <i id = "progress" class="fa-solid fa-bars-progress"></i></a>
+        <a href = "#hr" style="font-size:24px" class = "nicon"> <i id = "file" class="fa-regular fa-file"></i></i></a>
     </div>
 
    <!-- first page section  -->
     <div id = "fp" class = "first-page">
-        <h1 class = "name"> Chan Lee </h1>
-        <h3 class = "name"> I Shape My World Through Computer Science. </h3>
-        <a href = "https://github.com/chanlee20" style="font-size:24px" class = "icons"> <i class="fa fa-github"></i></a>
-        <a href = "https://www.linkedin.com/in/chan-lee-b38135a5/" style="font-size:24px" class = "icons"> <i class="fa fa-linkedin"></i></a>
-        <a href = "https://www.facebook.com/chan.lee.1004837" style="font-size:24px" class = "icons"> <i class="fa fa-facebook"></i></a>
-        <a href = "https://www.instagram.com/chan.lee20/" style="font-size:24px" class = "icons"> <i class="fa fa-instagram"></i></a>
+        <div class="name">
+            <h1> Chan Lee </h1>
+            <h3> I Shape My World Through Computer Science. </h3>
+            <div class="icons_container">
+                <a href = "https://github.com/chanlee20" style="font-size:24px" id="github_icon" class = "icons"> <i class="fa fa-github"></i></a>
+                <a href = "https://www.linkedin.com/in/chan-lee-b38135a5/" id="linkedin_icon" style="font-size:24px" class = "icons"> <i class="fa fa-linkedin"></i></a>
+                <a href = "https://www.facebook.com/chan.lee.1004837" id="facebook_icon" style="font-size:24px" class = "icons"> <i class="fa fa-facebook"></i></a>
+                <a href = "https://www.instagram.com/chan.lee20/" id="instagram_icon" style="font-size:24px" class = "icons"> <i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
         <img class = "pp" src = "assets/profile.png">
     </div>
 
     <!-- about me  -->
     <div id = "am" class = "about-me">
         <h1 class = "header"> ABOUT </h1>
-        <h3 class = "intro"> Hi! I am a rising junior at Washington University in St. Louis studying computer science. </h3>
+        <h3 class = "intro"> Hi! I am a Junior at Washington University in St. Louis studying computer science. </h3>
         <div class = "am-container">
             <img class = "pp2" src = "assets/fkimg.jpeg"> 
-            <h1 class = "job"> Software Developer </h1>
-            <h3 class = "desc"> The purpose behind technology is to better our lives. Thus, I build my code based on what humans desire not what technology desires. </h3>
-            
-            
-                <ul class = "col1">
-                    <li> Location (USA): St. Louis, MO </li>
-                    <li> Location (KR): Seoul, South Korea </li>
-                    <li> Major: Computer Science </li>
-                </ul>
-                <ul class = "col2">
-                    <li> Phone Number (USA): +1 (314) 857 4662 </li>
-                    <li> Phone Number (KR): +8210-6342-3142 </li>
-                    <li> Email: chan.l1@wustl.edu </li>
-                </ul>
+            <div class="personal_info">
+                <h1 class = "job"> Software Developer </h1>
+                <h3 class = "desc"> I am currently working in Sobriety Hub, a startup ran by WashU students, as an intern focusing on full stack development. </h3>
+                <div class= "column_info">
+                    <ul class = "col1">
+                        <li> <i class="fa-solid fa-location-dot"></i> <b> Location (USA): </b> <span> St. Louis, MO  </span></li>
+                        <li> <i class="fa-solid fa-location-dot"></i> <b> Location (KR): </b> <span> Seoul, South Korea </span> </li>
+                        <li> <i class="fa-solid fa-graduation-cap"></i> <b> Major: </b> <span> Computer Science </span>  </li>
+                    </ul>
+                    <ul class = "col2">
+                        <li> <i class="fa-solid fa-phone"></i> <b> Phone Number (USA): </b> <span> +1 (314)-857-4662 </span> </li>
+                        <li> <i class="fa-solid fa-phone"></i> <b>  Phone Number (KR): </b> <span> +8210-6342-3142 </span> </li>
+                        <li> <i class="fa-sharp fa-solid fa-inbox"></i> <b> Email: </b> <span> chan.l1@wustl.edu </span></li>
+                    </ul>
+                </div>
+                
+            </div>
         </div>
         
         
+    </div>
+
+
+    <!-- skills -->
+
+    <div id = "s" class ="skills">
+        <h1 id = "hs" class = "header3"> SKILLS </h1>
+        <div class="skills_container">
+            <div class="first_row">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class = "skill_icons"/>
+            </div>
+            <div class="second_row">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class = "skill_icons"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class = "skill_icons"/>  
+            </div>
+     
+        </div>
     </div>
 
     <!-- Projects -->
 
     <div id = "p" class = "projects">
         <h1 id = "hp" class = "header2"> PROJECTS </h1>
-        <h4 class = "sub"> You can view all of my projects <a id = "phere" href ="assets/2022_Projects_Chan_Lee.pdf"> here </a> </h4>
-        <div class = "p-gallery">
-            <div class = "first-section">
-                <div class = "img-section">
-                    <a href = "https://github.com/chanlee20/WeatherAPI-Predictor"><img class = "img" src = "assets/p1.png" id = "i1"> </a>
-                </div>
-                <div class = "img-section">
-                    <a href = "https://github.com/chanlee20/todo-react"><img class = "img" src = "assets/p2.png" id = "i2"> </a> 
-                </div>
-                <div class = "img-section">
-                    <a href = "https://github.com/chanlee20/CSE330CourseWork/tree/main/module5-group"><img class = "img" src = "assets/active_cal.jpg" id = "i3"></a>
-                </div>
+        <div class = "project_container">
+            <div class= "pj_first_row">
+                <a href="https://github.com/chanlee20/AI-FlappyBird" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/flappy_bird_ai.png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> Python </h3>
+                            <p> Applied NEAT Algorithm that teaches the AI how to play flappy bird by learning through each generations / trials </p>
+                        </div>
+                        <h3 class = "pj_desc"> NEAT AI Flappy Bird</h3> 
+                    </div>
+                </a>
+               
+                <a href="https://github.com/chanlee20/Movie-Search-App" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/movie_app.png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> Swift </h3>
+                            <p> Utilized TMDB (movie database) to access the data through its REST API and display the desired information from the user in user-friendly format. </p>
+                        </div>
+                        <h3 class = "pj_desc"> Movie Search App </h3> 
+                    </div>
+                </a>
+                
+                <a href="https://www.sobrietyhub.com/" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/sobriety_hub.png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> React / NextJS </h3>
+                            <p> Contributed building a software that collects user data and presents them in user-friendly manner. Worked along with the founder of the company to constantly tackle user-interface problems that customers are facing.</p>
+                        </div>
+                        <h3 class = "pj_desc"> Sobriety Hub</h3> 
+                    </div>
+                </a>
             </div>
-            <div class = "sec-section">
-                <div class = "img-section">
-                    <a href = "https://github.com/chanlee20/CSE330CourseWork/tree/main/module6"><img class = "img" src = "assets/chat.png" id = "i4"> </a>
-                </div>
-                <div class = "img-section">
-                    <a href = "https://github.com/chanlee20/kysc"> <img class = "img" src = "assets/kysc.jpeg" id = "i5"> </a>
-                </div>
-                <div class = "img-section">
-                    <a href = "https://www.instagram.com/uysc_sis/"> <img class = "img" src = "assets/unicef.jpeg" id = "i6">  </a>
-                </div>
+            <div class="pj_second_row">
+                <a href="https://github.com/chanlee20/Terminal_File_System" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/terminal_file_system.png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> C / C++ </h3>
+                            <p> Utilized OOP principles to create a software that mimics linux file commands (ls, touch, rm, rn etc.) </p>
+                        </div>
+                        <h3 class = "pj_desc"> Terminal File System </h3> 
+                    </div>
+                </a>
+                <a href="https://www.w-block.com/" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/WashU Blockchain Society (Resolution Enhanced).png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> React / Python </h3>
+                            <p> Created a landing page for the organization where it can connect various crypto wallets for WashU students. Taught students concepts of blockchain and how it can be practically applied to metaverse. </p>
+                        </div>
+                        <h3 class = "pj_desc"> W-Block </h3> 
+                    </div>
+                </a>
+                
+                <a href = "https://github.com/chanlee20/kurento-tutorial-node" style="text-decoration: none;">
+                    <div class= "pj_card">
+                        <img src="assets/personal_website/kurento_project.png" class= "pj_img">
+                        <div class="pj_card_desc">
+                            <h3> NodeJS </h3>
+                            <p> Built a software that employs Kurento Media Server and WebRTC APIs to connect N to N cameras. </p>
+                        </div>
+                        <h3 class = "pj_desc"> Kurento & WebRTC N to N Call</h3> 
+                    </div>
+                </a>
             </div>
-            
         </div>
     </div>
 
-    <!-- skills -->
-
-    <div id = "s" class ="skills">
-        <h1 id = "hs" class = "header3"> SKILLS </h1>
-        <h4 class = "instr"> Languages I am Comfortable With</h4>
-        <div class = "sk" id ="java">
-            <p class = "sublist"> JAVA </p>
-            <p class = "percentage"> 90% </p>
-            <progress value="90" max="100"> 90% </progress>
-        </div>
-        <div class = "sk" id = "html/css/js">
-            <p class = "sublist"> HTML / CSS / JS (React + Node) </p>
-            <p class = "percentage"> 95% </p>
-            <progress value="95" max="100"> 95% </progress>
-        </div>
-        <div class = "sk" id = "python">
-            <p class = "sublist"> Python </p>
-            <p class = "percentage"> 80% </p>
-            <progress value="80" max="100"> 80% </progress>
-        </div>
-        <div class = "sk" id = "MySql">
-            <p class = "sublist"> MySql </p>
-            <p class = "percentage"> 95% </p>
-            <progress value="95" max="100"> 95% </progress>
-        </div>
-        <div class = "sk" id = "PHP">
-            <p class = "sublist"> PHP </p>            
-            <p class = "percentage"> 95% </p>
-            <progress  value="95" max="100"> 95% </progress>
-        </div>
-        <div class = "sk" id = "C/C++">
-            <p class = "sublist"> C / C++ </p>
-            <p class = "percentage"> 60% </p>
-            <progress value="60" max="100"> 60% </progress>
-        </div>
-
-    </div>
 
     <!-- Resume -->
     <div id = "r" class = "resume">
-        <h1 id = "hr" class = "header3"> RESUME </h1>
+        <h1 id = "hr" class = "header3"> Work Experience </h1>
         <h4 class = "instr"> My official resume can be seen <a id = "here" href = "assets/Chan Lee Official Resume Intern w_ GPA (4).pdf"> here </a> </h4>
+        <div class="timeline_container">
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h1> Bachelor of Science in Computer Science </h1> 
+                            <h4> 2020 - 2023 (Projected) </h4>   
+                            <p>  <em> Washington University in St. Louis </em> </p>
+                            <p> A  <a href="https://www.w-block.com/" style="text-decoration: none; color: white"> W-Block </a> Lead Developer, <a href="https://acm.wustl.edu/" style="text-decoration: none; color: white"> ACM </a> Member,  <a href="https://www.instagram.com/kisswustl/" style="text-decoration: none; color: white"> KISS </a> Secretary. GPA: 3.8</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h1> SWE Intern - Full Stack Development </h1> 
+                            <h4> September 2022 - Present </h4>   
+                            <p>  <em> <a href="https://www.sobrietyhub.com/" style="text-decoration: none; color: white;"> Sobriety Hub</a> </em> </p>
+                            <p> Utilize frameworks and external libraries such as NextJS, POSTGRE SQL, PrismaDB, ShepherdJS to manage user data and present them in necessary situations with intuitive and user-friendly fashion.  </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h1> SWE Intern - Embedded Development & Full Stack Development </h1> 
+                            <h4> Summer 2022 </h4>   
+                            <p>  <em> <a href="http://dogugonggan.com/" style="text-decoration: none; color: white;"> Dogugonggan Robotics </a> </em> </p>
+                            <p> Employed the functionalities of ReSpeaker & ODAS microphones to calculate Direction of Angle and Voice Activity Detection; created these functions for AM27P Audinst microphones and created a software that can visually display the data. </p>
+                            <p> Implemented <a href="https://doc-kurento.readthedocs.io/en/latest/" style="text-decoration: none; color: white;"> Kurento and WebRTC APIs </a>  to create a software that can connect N to N P2P communication using videos and display them at one screen. Created functionalities such as users joining different rooms, recording videos and automatically saving them, and blocking unidentified connections </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h1> Teaching Assistant </h1>    
+                            <h4> Jan 2022 - Present </h4>  
+                            <p> <em> Data Structures & Algorithms (CSE 247), Introduction to Computer Engineering (CSE 132)</em></p>
+                            <p> Help students understand the concepts behind each data structures and algorithms including asymptotic analysis, sorting algorithms, optimal pathways, hash tables, queues, and other data structures.</p>
+                            <p> Support students who struggle coding with Arduino specifically on how the code can interact with the hardware components by using concepts such as C coding, Delta-timing, low-level coding.</p>
+                        </div>
+                    </li>
+                   
+                    <li>
+                        <div class="timeline-content">
+                            <h1> Writing Consultatnt </h1>    
+                            <h4> Summer 2020 </h4>  
+                            <p> <em> American Academy Agency </em></p>
+                            <p> Consulted with undergraduate and graduate students who wanted to pursue their academics in the States </p>
+                        </div>
+                    </li>
+                   
+
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- footer section -->
