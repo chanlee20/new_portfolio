@@ -12,7 +12,7 @@ body{
     width: fit-content;
     margin-right: 5%;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 20%;
 }
 
@@ -147,7 +147,7 @@ body{
 }
 
 .catch_phrase{
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
 .personal_info{
