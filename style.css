@@ -344,7 +344,9 @@ progress {
 }
 
 .nicon:visited{
-    color: white;
+    background-color: #F2F3F5;
+    color: #45505B;
+
 }
 
 
