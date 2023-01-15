@@ -346,7 +346,6 @@ progress {
 .nicon:visited{
     background-color: #F2F3F5;
     color: #45505B;
-
 }
 
 
@@ -499,11 +498,11 @@ footer{
     }
     
     .pj_card:hover .pj_desc{
-        opacity: 0.3;
+        opacity: 0.08;
     }
     
      .pj_card:hover .pj_img{
-        opacity: 0.3;
+        opacity: 0.08;
     }
     .pj_card:hover .pj_card_desc{
         opacity: 1;
