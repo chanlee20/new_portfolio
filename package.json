@@ -1,0 +1,25 @@
+{
+  "name": "new_portfolio",
+  "version": "1.0.0",
+  "description": "https://chanlee20.github.io/new_portfolio/",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanlee20/new_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanlee20/new_portfolio/issues"
+  },
+  "homepage": "https://github.com/chanlee20/new_portfolio#readme",
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.11.4",
+    "parcel-bundler": "^1.12.5"
+  }
+}
