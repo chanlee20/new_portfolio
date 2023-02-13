@@ -268,10 +268,13 @@ body{
 }
 
 .pp2{
-    position: relative;
-    height: 20vw;
-    width: auto;
-    border-radius: 50px;
+    display: block;
+    width: 15vw;
+    border-radius: 100%;
+    margin: auto;
+    object-fit: cover;
+    height: 15vw;
+    object-position: 0 0;
 }
 
 .job{

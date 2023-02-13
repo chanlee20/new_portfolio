@@ -1,0 +1,678 @@
+body{
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+    background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home{
+    position: absolute;
+    width: 100%;
+}
+.quote{
+    /* width: 80%; */
+}
+.arrow_btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    float: right;
+    top: -2px;
+}
+.btn{
+    position: relative;
+    width: 12rem;
+    height: auto;
+    cursor: pointer;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+    z-index: 1;
+}
+.text{
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 1.85rem;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    transition: al 0.4s ease-in-out;
+}
+.circle{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #3a6073;
+    border: 1.625 rem;
+    transition: all 0.4s ease-in-out;
+}
+.arrow_icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+}
+.arrow{
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transition: all 0.4s ease-in-out;
+}
+.arrow::before{
+    content: "";
+    position: absolute;
+    top:-0.3rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid white;
+    border-right: 0.125rem solid white;
+    transform: rotate(45deg);
+
+}
+.btn:hover .circle{
+    width: 100%;
+}
+.btn:hover .arrow{
+    background: white;
+    transform: translateX(1rem);
+}
+.btn:hover .text{
+    color: white;
+}
+.phrase_container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+	border: 0.15rem solid;
+	padding: 3vw;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+}
+.atag:link, a:visited {
+    color: white;
+    text-decoration: none;
+    /* border: 5px solid white; */
+}
+.name {
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    width: fit-content;
+    margin-right: 5%;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.skill_icons{
+    width: 8vw;
+    height: 8vw;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20%;
+    background-color: #fff;
+    box-shadow: 5px 5px gray;
+}
+
+.icons_container{
+    display: flex;
+}
+
+.icons{
+    margin-left: 15px;
+}
+
+.icons:visited:hover {
+    transition: .3s ease;
+    color: #16222a;
+}
+
+#github_icon{
+    color: #ffffff;
+}
+
+#facebook_icon{
+    color: #4267B2;
+}
+
+#linkedin_icon{
+    color: #0077b5;
+}
+
+#instagram_icon{
+    color: #8a3ab9;
+}
+
+#github_icon_footer{
+    color: #ffffff;
+}
+
+#facebook_icon_footer{
+    color: #4267B2;
+}
+
+#linkedin_icon_footer{
+    color: #0077b5;
+}
+
+#instagram_icon_footer{
+    color: #8a3ab9;
+}
+
+#github_icon_footer:visited{
+    color: #ffffff;
+}
+
+#facebook_icon_footer:visited{
+    color: #4267B2;
+}
+
+#linkedin_icon_footer:visited{
+    color: #0077b5;
+}
+
+#instagram_icon_footer:visited{
+    color: #8a3ab9;
+}
+
+#github_icon:visited{
+    color: #ffffff;
+}
+
+#facebook_icon:visited{
+    color: #4267B2;
+}
+
+#linkedin_icon:visited{
+    color: #0077b5;
+}
+
+#instagram_icon:visited{
+    color: #8a3ab9;
+}
+
+.pp{
+    position: relative;
+    border-radius: 30px;
+    width: auto;
+    height: 30vw;
+    margin-top: 10%;
+}
+
+.first-page{
+    display: flex;
+}
+
+.about-me{
+    margin-top: 50px;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-top: 1px solid #16222a;
+    padding-top: 5%;
+    font-size: 2.2vw;
+}
+
+.column_info{
+    display: flex;
+    font-size: 1vw;
+}
+
+.am-container{
+    display: flex;
+    max-height: 400px;
+    justify-content: center;
+}
+
+.name_text{
+    font-size: 3.3vw;
+    color: white;
+}
+
+.catch_phrase{
+    font-size: 1.4vw;
+    color: white;
+}
+
+.personal_info{
+    margin-left: 3%;
+}
+
+
+
+.intro{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.pp2{
+    display: block;
+    width: 15vw;
+    border-radius: 100%;
+    margin: auto;
+    object-fit: cover;
+    height: 15vw;
+    object-position: 0 0;
+}
+
+.job{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.col1{
+    line-height: 2.5vw;
+    width: 50%;
+    list-style-type: none;
+}
+
+.col2{
+    width: 50%;
+    line-height: 2.5vw;
+    list-style-type: none;
+}
+
+.sub{
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+}
+
+.pj_img{
+    width: 65%;
+    height: 60%;
+    opacity: 1;
+  
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.pj_first_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pj_second_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pj_desc{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+.pj_card:visited{
+    text-decoration: none;
+    color: #45505B;
+    box-shadow: 0 3px 10px #45505B;
+
+}
+
+
+
+.pj_card_desc{
+    color: #04b191;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+.instr{
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2vw;
+}
+
+.sublist{
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.percentage{
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+.skills{
+    text-align: center;
+    margin: auto;
+}
+
+.sk{
+    margin-top: 100px;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+progress {
+  -webkit-appearance: none;   
+    border-radius: 7px; 
+    width: 100%;
+}
+
+::-webkit-progress-bar {
+  background-color: #e8e8e8;
+    border-radius: 7px; 
+    width: 100%;
+}
+
+::-webkit-progress-value {
+  background-color: #04b191;
+    border-radius: 7px; 
+    width: 100%;
+}
+
+#i4, #i5, #i6{
+    
+}
+
+.navbar{
+    position: fixed;
+    z-index: 3;
+    margin-left: 20px;
+    right: 50px;
+    visibility: hidden;
+}
+
+.nicon{
+    display: block;
+    margin-top: 20px;
+    color: #45505B;
+    background-color: #F2F3F5;
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.nicon:visited{
+    background-color: #F2F3F5;
+    color: #45505B;
+}
+
+.nicon:hover {
+    background: none;
+    background-color: #16222a;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.nicon:visited:hover{
+    background-color: #16222a;
+}
+
+
+
+.beginning{
+    z-index: 4;
+    background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 50%; */
+    /* transform: translate(-40%, 0); */
+}
+
+.slider{
+    z-index: 5;
+    background: rgb(61, 76, 82);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text{
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+}
+
+.hide{
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, #16222a, #3a6073);
+}
+.header4 {
+    font-size: 2.2vw;
+    padding-top: 4vw;
+    margin-bottom: 1.2vw;
+}
+
+.icons2{
+    margin-left: 15px;
+}
+
+.sf {
+    font-size: 1vw;
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+    margin: 0;
+}
+
+.timeline_container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul {
+   list-style-type: none;
+
+}
+
+.timeline ul li{
+    padding:20px;
+    background-color: #04b191;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.timeline-content h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;  
+    margin-bottom: 10px;
+}
+
+.timeline-content p{
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/* @media screen and () */
+@media screen and (min-width: 320px) {
+    .pj_card{
+        position: relative;
+        text-align: center;
+        width: 21vw;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .pj_card{
+        position: relative;
+        text-align: center;
+        width: 21vw;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar{
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pj_card{
+        position: relative;
+        text-align: center;
+        width: 21vw;
+        padding: 20px;
+        margin: 10px;
+    }
+    .pj_card:hover{
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 3px 10px #45505B;
+    }
+    
+    .pj_card:hover .pj_desc{
+        opacity: 0.08;
+    }
+    
+     .pj_card:hover .pj_img{
+        opacity: 0.08;
+    }
+    .pj_card:hover .pj_card_desc{
+        opacity: 1;
+    }     
+    .timeline::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background-color: #04b191;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline ul li::after{
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        background-color: #04b191;
+        border-radius: 50%;
+        border: 1px solid #04b191;
+        top:0;
+    }
+    .timeline ul li:nth-child(odd)::after{
+        right: -10px;
+        transform: translate(50%, -100%);    
+    }
+    .timeline ul li:nth-child(even)::after{
+        left: -32px;
+        transform: translate(50%, -100%);    
+    }
+    .timeline ul li{
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+     }
+    .timeline ul li:nth-child(odd){
+        float: left;
+        clear: right;
+        transform: translateX(-70px);
+    }
+    .timeline ul li:nth-child(even){
+        float: right; 
+        clear: left;
+        transform: translateX(30px);
+    }
+    .timeline ul li:hover:after{
+        transition: all ease-in-out 0.2s;;
+        background-color: white;
+    }
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
