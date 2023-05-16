@@ -4,7 +4,7 @@ body{
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
     color: white;
-    background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2980B9,#6DD5FA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .home{
     position: absolute;
@@ -51,7 +51,7 @@ body{
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #3a6073;
+    background: #6DD5FA;
     border: 1.625 rem;
     transition: all 0.4s ease-in-out;
 }
@@ -68,6 +68,15 @@ body{
     height: 0.125rem;
     background: none;
     transition: all 0.4s ease-in-out;
+}
+.profile_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.profile{
+    width: 20%;
 }
 .arrow::before{
     content: "";
@@ -144,6 +153,7 @@ body{
 }
 
 #github_icon{
+    margin-left: 0% !important;
     color: #ffffff;
 }
 
@@ -230,7 +240,7 @@ body{
 .header{
     font-family: 'Lato', sans-serif;
     text-align: center;
-    border-top: 1px solid #16222a;
+    border-top: 1px solid #fff;
     padding-top: 5%;
     font-size: 2.2vw;
 }
@@ -256,9 +266,7 @@ body{
     color: white;
 }
 
-.personal_info{
-    margin-left: 3%;
-}
+
 
 
 
@@ -351,7 +359,7 @@ body{
 
 
 .pj_card_desc{
-    color: #04b191;
+    color: #2980B9;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -417,7 +425,7 @@ progress {
 }
 
 ::-webkit-progress-value {
-  background-color: #04b191;
+  background-color: #2980B9;
     border-radius: 7px; 
     width: 100%;
 }
@@ -451,21 +459,21 @@ progress {
 
 .nicon:hover {
     background: none;
-    background-color: #16222a;
+    background-color: #2980B9;
     color: white;
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;
 }
 
 .nicon:visited:hover{
-    background-color: #16222a;
+    background-color: #2980B9;
 }
 
 
 
 .beginning{
     z-index: 4;
-    background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2980B9,#6DD5FA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: fixed;
     top: 0;
     left: 0;
@@ -510,13 +518,9 @@ progress {
 footer {
     width: 100%;
     text-align: center;
-    background: linear-gradient(to right, #16222a, #3a6073);
+    background: linear-gradient(to right, #2980B9,#6DD5FA);
 }
-.header4 {
-    font-size: 2.2vw;
-    padding-top: 4vw;
-    margin-bottom: 1.2vw;
-}
+
 
 .icons2{
     margin-left: 15px;
@@ -555,7 +559,7 @@ footer {
 
 .timeline ul li{
     padding:20px;
-    background-color: #04b191;
+    background-color: #2980B9;
     border-radius: 10px;
     margin-bottom: 20px;
     color: white;
@@ -576,25 +580,225 @@ footer {
 }
 
 /* @media screen and () */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .first-page{
+        height: 100vh;
+    }
+    .name{
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .profile{
+        width: 50%;
+    }
+    .job{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+    .intro{
+        font-size: 1rem;
+    }
+    .column_info{
+        font-size: 0.75rem;
+    }
+    .col1{
+        line-height: 2rem;
+        width: 70%;
+        list-style-type: none;
+    }
+    .col2{
+        line-height: 2rem;
+        width: 70%;
+        list-style-type: none;
+    }
+    .column_info{
+        display: block;
+    }
+    .pj_first_row{
+        display: block;
+    }
+    .pj_second_row{
+        display: block;
+    }
+    .pj_container{
+        display: flex;
+        justify-content: center;
+    }
+    .pj_desc{
+        font-size: 0px;
+    }
+    .pj_img{
+        width: 100%;
+        height: 100%;
+    }
+    .pj_card{
+        width: 100%;
+    }
+    .am-container{
+        font-size: 1rem;
+    }
+    .name_text{
+        text-align: center;
+        font-size: 32px;
+    }
+    .icons_container{
+        display: block;
+    }
     .pj_card{
         position: relative;
         text-align: center;
-        width: 21vw;
         padding: 10px;
         margin: 5px;
+    }
+    .instr{
+        font-size: 1rem;
+    }
+    .timeline ul{
+        padding: 0%;
+    }
+    .timeline-content p{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 1rem !important;
+    }
+    .catch_phrase{
+        font-size: 2.25vh;
+    }
+    .btn{
+        width: 5rem;
+    }
+    .text{
+        color: transparent;
+    }
+    .phrase_container{
+        text-align: center;
     }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .first-page{
+        height: 100vh;
+    }
+    .name{
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .header{
+        font-size: 24px;
+    }
+    .profile{
+        width: 25%;
+    }
+    .job{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 1rem;
+    }
+    .intro{
+        font-size: 1rem;
+    }
+    .column_info{
+        font-size: 0.75rem;
+    }
+    .col1{
+        line-height: 2rem;
+        width: 70%;
+        list-style-type: none;
+    }
+    .col2{
+        line-height: 2rem;
+        width: 70%;
+        list-style-type: none;
+    }
+    .column_info{
+        display: block;
+    }
+    .pj_first_row{
+        display: block;
+    }
+    .pj_second_row{
+        display: block;
+    }
+    .pj_container{
+        display: flex;
+        justify-content: center;
+    }
+    .pj_desc{
+        font-size: 0px;
+    }
+    .pj_img{
+        width: 50%;
+        height: auto;
+    }
+    .pj_card{
+        width: 100%;
+    }
+    .am-container{
+        font-size: 1rem;
+    }
+    .name_text{
+        text-align: center;
+        font-size: 32px;
+    }
+    .icons_container{
+        display: block;
+    }
     .pj_card{
         position: relative;
         text-align: center;
-        width: 21vw;
         padding: 10px;
         margin: 5px;
     }
+    .instr{
+        font-size: 1rem;
+    }
+    /* .timeline ul{
+        padding: 0%;
+    } */
+    .timeline-content p{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 1rem !important;
+    }
+    .catch_phrase{
+        font-size: 2.25vh;
+    }
+    .btn{
+        width: 5rem;
+    }
+    .text{
+        color: transparent;
+    }
+    .phrase_container{
+        text-align: center;
+    }
 }
+
+
 
 @media screen and (min-width: 1024px) {
     .navbar{
@@ -603,6 +807,31 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    .pj_first_row{
+        display: flex;
+    }
+    .pj_second_row{
+        display: flex;
+    }
+    .pj_desc{
+        font-size: 0.5rem;
+    }
+    .pj_img{
+        width: 100%;
+        height: auto;
+    }
+    .pj_card{
+        width: 100%;
+    }
+    .btn{
+        width: 12rem;
+    }
+    .text{
+        color: white;
+    }
+    .catch_phrase{
+        font-size: 3vh;
+    }
     .pj_card{
         position: relative;
         text-align: center;
@@ -631,7 +860,7 @@ footer {
         position: absolute;
         height: 100%;
         width: 2px;
-        background-color: #04b191;
+        background-color: #2980B9;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -641,9 +870,9 @@ footer {
         position: absolute;
         height: 20px;
         width: 20px;
-        background-color: #04b191;
+        background-color: #2980B9;
         border-radius: 50%;
-        border: 1px solid #04b191;
+        border: 1px solid #2980B9;
         top:0;
     }
     .timeline ul li:nth-child(odd)::after{
