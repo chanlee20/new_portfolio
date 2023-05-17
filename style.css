@@ -582,6 +582,9 @@ footer {
 
 /* @media screen and () */
 @media screen and (min-width: 320px) and (max-width: 425px) {
+    .text{
+        font-size: 0px;
+    }
     .first-page{
         height: 100vh;
     }
@@ -694,6 +697,9 @@ footer {
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+    .text{
+        font-size: 0px;
+    }
     .first-page{
         height: 100vh;
     }
