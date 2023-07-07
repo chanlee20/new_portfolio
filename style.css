@@ -250,10 +250,12 @@ body{
     font-size: 1vw;
 }
 
-.am-container{
+.am-container {
     display: flex;
     max-height: 400px;
     justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 
 .name_text{
