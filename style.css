@@ -248,6 +248,8 @@ body{
 .column_info{
     display: flex;
     font-size: 1vw;
+    width: 70%;
+    margin: auto;
 }
 
 .am-container {
